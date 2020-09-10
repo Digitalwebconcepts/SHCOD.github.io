@@ -9043,9 +9043,9 @@ h5,
   font-size: 7vw;
   color: #fff;
   line-height: 1.2;
-  font-weight: 700 !important;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-family: "Oswald", Arial, sans-serif; }
   @media (max-width: 991.98px) {
   .slider-text h1 {
@@ -9116,7 +9116,11 @@ h5,
 .slider-text .bread {
   font-weight: 700;
   color: #fff;
-  font-size: 60px; }
+  font-size: 7vw;
+  font-family: 'Oswald', Arial, sans-serif;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .ftco-volunteer .text h2 {
   font-weight: 600;
@@ -9198,7 +9202,7 @@ h5,
   color: #fff; }
 
 .btn.btn-black {
-  background: #da0677 !important;
+  background: rgba(218, 6, 119, 0.67) !important;
 
   /*border: 1px solid rgba(0, 0, 0, 0.68) !important
  */
@@ -9824,7 +9828,8 @@ textarea.form-control {
 .ftco-vol .heading-section h2 {
   display: inline-block;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 .ftco-vol .heading-section h2 a {
   color: #fff; }
